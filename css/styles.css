@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+
+/*GENERALES Y REUTIlIZABLES*/
+* {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: rgb(1, 143, 60);
+}
+
+h2 {
+  color: rgb(1, 143, 60);
+}
+
+.site-header {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  height: 20vh;
+  padding: 3rem 0rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-nav ul li {
+  list-style: none;
+  margin: 1.5rem;
+}
+.site-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.site-nav ul li a:hover {
+  color: aqua;
+}
+
+@media (min-width: 768px) {
+  .grid-padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .grid-padre {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.hijo img {
+  min-width: 80rem/2;
+}
+
+/*# sourceMappingURL=styles.css.map */
