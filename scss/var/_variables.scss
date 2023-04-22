@@ -1,1 +1,15 @@
 $new-color: rgb(1, 143, 60);
+$bg: nada;
+
+@mixin flex-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin bg-header-footer{
+    background-color: rgb(34, 33, 33);
+    color: white;
+    height: 20vh;
+    padding: 3rem 0rem;
+}

@@ -1,0 +1,16 @@
+@import '../var/variables';
+
+.site-footer{
+    @include bg-header-footer;
+}
+
+.iconos{
+    a{
+        color: white;
+        margin: 1rem;
+        font-size: 3rem;
+        &:hover{
+            color: aqua;
+        }
+    }
+}

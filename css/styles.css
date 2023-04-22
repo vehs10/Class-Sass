@@ -38,10 +38,6 @@ h1 {
   color: rgb(1, 143, 60);
 }
 
-h2 {
-  color: rgb(1, 143, 60);
-}
-
 .site-header {
   background-color: rgb(34, 33, 33);
   color: white;
@@ -71,6 +67,14 @@ h2 {
   color: aqua;
 }
 
+h2 {
+  color: rgb(1, 143, 60);
+}
+
+.grid-padre {
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   .grid-padre {
     display: grid;
@@ -85,6 +89,68 @@ h2 {
 }
 .hijo img {
   min-width: 80rem/2;
+}
+
+.btn, .btn-agotado {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.btn-agotado {
+  text-transform: uppercase;
+  background-color: rgb(197, 197, 12);
+  color: black;
+}
+
+.site-footer {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  height: 20vh;
+  padding: 3rem 0rem;
+}
+
+.iconos a {
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.iconos a:hover {
+  color: aqua;
+}
+
+.fruit-color.apple {
+  background-color: red;
+  padding: 10px;
+  list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fruit-color.banana {
+  background-color: yellow;
+  padding: 10px;
+  list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fruit-color.orange {
+  background-color: orange;
+  padding: 10px;
+  list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fruit-color.frutilla {
+  background-color: purple;
+  padding: 10px;
+  list-style: none;
+  margin: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
